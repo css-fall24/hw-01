@@ -1,11 +1,28 @@
 ---
-title: "Untitled"
-output: md_document
-date: "`r Sys.Date()`"
+title: "HW1.Rmd"
+subtitle: "Learning CSS"
+author: "Dilge Iris Girgin"
+date: "2024-10-05"
+toc: true
+output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+This is a text comment on what the follwing code does. 
+It loads the cars dataset and shoes the first few rows of the dataset. Cars is built in R.
+
+```{r}
+head(cars)
+```
+
+This code calculates the average speed from the cars dataset.
+```{r}
+mean(cars$speed)
+```
+
+
+This code tells the total number of rows in the cars dataset.
+```{r}
+nrow(cars)
 ```
 
 
